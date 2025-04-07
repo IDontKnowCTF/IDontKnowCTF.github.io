@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", initScrollReveal);
 document.addEventListener("pjax:success", initScrollReveal);
 </script><link rel="icon" type="image/png" href="https://unk-blog-image.oss-cn-shenzhen.aliyuncs.com/unknown.jpg"><link rel="mask-icon" href="https://unk-blog-image.oss-cn-shenzhen.aliyuncs.com/unknown.jpg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
     window.Yun = {}
-    window.CONFIG = {"hostname":"example.com","root":"/","title":"不知道的小站","version":"1.10.11","mode":"time","copycode":true,"page":{"isPost":false},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"local_search":{"path":"/search.json"},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+    window.CONFIG = {"hostname":"example.com","root":"/","title":"不知道的小站","version":"1.10.11","mode":"time","copycode":true,"page":{"isPost":false},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
   </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><meta name="description" content="不知道小队最初由四个VN小登临时凑成打NCTF的一个队。  队员Web：  LamentXU VN战队  高二  Pwn：  JerrythePro123 VN战队 高二  Crypto：  lianjin VN战队 大一  Reverse：  Liv VN战队 大一   5m10v3 山海关战队 大二  比赛经历NCTF 2024 第六名 XYCTF 2025 第一名 队员BlogLamentX">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
@@ -82,28 +82,4 @@ function showComment(target) {
     targetContainer.style.display = "block";
   }
 }
-</script></div></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2025 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 不知道</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.3.0</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" href="javascript:;" title="Search"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>window.addEventListener("DOMContentLoaded", () => {
-  // Handle and trigger popup window
-  document.querySelector(".popup-trigger").addEventListener("click", () => {
-    document.querySelector(".popup").classList.add("show");
-    setTimeout(() => {
-      document.querySelector(".search-input").focus();
-    }, 100);
-  });
-
-  // Monitor main search box
-  const onPopupClose = () => {
-    document.querySelector(".popup").classList.remove("show");
-  };
-
-  document.querySelector(".popup-btn-close").addEventListener("click", () => {
-    onPopupClose();
-  });
-
-  window.addEventListener("keyup", event => {
-    if (event.key === "Escape") {
-      onPopupClose();
-    }
-  });
-});
-</script><script src="https://fastly.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js"></script><script src="/js/search/local-search.js" defer type="module"></script><div class="popup search-popup"><div class="search-header"><span class="popup-btn-close close-icon hty-icon-button"><span class="icon iconify" data-icon="ri:close-line"></span></span></div><div class="search-input-container"><input class="search-input" id="local-search-input" type="text" placeholder="Searching..." value=""></div><div class="search-result-container"></div></div></body></html>
+</script></div></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2025 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 不知道</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.3.0</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></body></html>

@@ -135,12 +135,12 @@ html.dark {
   --hty-secondary-text-color: #eee;
   --post-block-bg-color: #1b1f2e;
   --smc-link-color: #3ca1ff;
-  --yun-bg-image: url("https://w.wallhaven.cc/full/we/wallhaven-weprlq.png");
+  --yun-bg-image: url("https://cdn.yunyoujun.cn/img/bg/galaxy.jpg");
   --banner-line-color: #fff;
   --banner-char-color: #fff;
   --banner-char-bg-color: rgba(0,0,0,0.5);
   --banner-char-hover-color: #000;
-  --post-card-bg-color: rgba(27,31,46,0.9);
+  --post-card-bg-color: rgba(27,31,46,0.7);
   --post-card-shadow: 0 1px 8px rgba(27,31,46,0.1);
   --sidebar-bg-color: rgba(27,31,46,0.95);
   --sidebar-bg-image: url("");
@@ -294,14 +294,15 @@ body::before {
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 1;
+  opacity: 0.7;
+  filter: blur(60px);
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.7;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -309,7 +310,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.7;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -317,7 +318,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.7;
   }
 }
 @keyframes bgFadeIn {
@@ -325,7 +326,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 1;
+    opacity: 0.7;
   }
 }
 :root {
@@ -1257,7 +1258,7 @@ body::before {
   }
 }
 :root {
-  --post-card-bg-color: rgba(255,255,255,0.9);
+  --post-card-bg-color: rgba(255,255,255,0.7);
   --post-card-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 .post-card {
@@ -2076,6 +2077,25 @@ body::before {
 }
 #say #say-from {
   display: block;
+}
+.notice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: 1px solid #000;
+  max-width: calc(900px - 2rem);
+  background-color: rgba(255,255,255,0.3);
+}
+@media screen and (max-width: 768px) {
+  .notice {
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
 }
 iframe.bilibili-video {
   width: 100%;

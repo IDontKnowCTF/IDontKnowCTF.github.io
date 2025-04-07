@@ -1,118 +1,9 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="不知道"><meta name="copyright" content="不知道"><meta name="generator" content="Hexo 7.3.0"><meta name="theme" content="hexo-theme-yun"><title>XYCTF25 不知道 WP | 不知道のblog</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
-  [".post-card",".markdown-body img"].forEach((target)=> {
-    ScrollReveal().reveal(target);
-  })
-}
-document.addEventListener("DOMContentLoaded", initScrollReveal);
-document.addEventListener("pjax:success", initScrollReveal);
-</script><link rel="icon" type="image/png" href="https://unk-blog-image.oss-cn-shenzhen.aliyuncs.com/unknown.jpg"><link rel="mask-icon" href="https://unk-blog-image.oss-cn-shenzhen.aliyuncs.com/unknown.jpg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
-    window.Yun = {}
-    window.CONFIG = {"hostname":"example.com","root":"/","title":"不知道的小站","version":"1.10.11","mode":"time","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}.","hits":"${hits} results found","hits_time":"${hits} results found in ${time} ms"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
-  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><meta name="description" content="战队名：不知道排名：1  Webez_puzzle查看js源码，找到_3KH_函数判断输出flag的地方 if (G &gt; yw4) &#123;       alert(O[s74](J74))     &#125; else &#123;       alert($vfeRha_calc(S74 + G &#x2F; Rw4, Y74, $v5sNVR(vS4)))     &#125;  运行到此">
-<meta property="og:type" content="article">
-<meta property="og:title" content="XYCTF25 不知道 WP">
-<meta property="og:url" content="http://example.com/2025/04/07/XYCTF25-%E4%B8%8D%E7%9F%A5%E9%81%93-WP/index.html">
-<meta property="og:site_name" content="不知道のblog">
-<meta property="og:description" content="战队名：不知道排名：1  Webez_puzzle查看js源码，找到_3KH_函数判断输出flag的地方 if (G &gt; yw4) &#123;       alert(O[s74](J74))     &#125; else &#123;       alert($vfeRha_calc(S74 + G &#x2F; Rw4, Y74, $v5sNVR(vS4)))     &#125;  运行到此">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/images/e859cd5cae823fc6e9ecd736647c7dab.png">
-<meta property="og:image" content="http://example.com/images/image.png">
-<meta property="og:image" content="http://example.com/images/image-20250406194123399.png">
-<meta property="og:image" content="http://example.com/images/image-20250406200423921.png">
-<meta property="og:image" content="http://example.com/images/1.png">
-<meta property="og:image" content="http://example.com/images/2.png">
-<meta property="og:image" content="http://example.com/images/4.png">
-<meta property="og:image" content="http://example.com/images/5.png">
-<meta property="og:image" content="http://example.com/images/6.png">
-<meta property="og:image" content="http://example.com/images/7.png">
-<meta property="og:image" content="http://example.com/images/8.png">
-<meta property="og:image" content="http://example.com/images/9.png">
-<meta property="og:image" content="http://example.com/images/10.png">
-<meta property="og:image" content="http://example.com/images/11.png">
-<meta property="og:image" content="http://example.com/images/12.png">
-<meta property="og:image" content="http://example.com/images/13.png">
-<meta property="og:image" content="http://example.com/images/14.png">
-<meta property="og:image" content="http://example.com/images/15.png">
-<meta property="og:image" content="http://example.com/images/16.png">
-<meta property="og:image" content="http://example.com/images/17.png">
-<meta property="og:image" content="http://example.com/images/18.png">
-<meta property="og:image" content="http://example.com/images/31.png">
-<meta property="og:image" content="http://example.com/images/19.png">
-<meta property="og:image" content="http://example.com/images/20.png">
-<meta property="og:image" content="http://example.com/images/21.png">
-<meta property="og:image" content="http://example.com/images/22.png">
-<meta property="og:image" content="http://example.com/images/23.png">
-<meta property="og:image" content="http://example.com/images/24.png">
-<meta property="og:image" content="http://example.com/images/25.png">
-<meta property="og:image" content="http://example.com/images/26.png">
-<meta property="og:image" content="http://example.com/images/27.png">
-<meta property="og:image" content="http://example.com/images/28.png">
-<meta property="og:image" content="http://example.com/images/29.png">
-<meta property="og:image" content="http://example.com/images/30.png">
-<meta property="og:image" content="http://example.com/images/32.png">
-<meta property="og:image" content="http://example.com/images/33.png">
-<meta property="og:image" content="http://example.com/images/34.png">
-<meta property="og:image" content="http://example.com/images/35.png">
-<meta property="og:image" content="http://example.com/images/36.png">
-<meta property="og:image" content="http://example.com/images/37.png">
-<meta property="og:image" content="http://example.com/images/38.png">
-<meta property="og:image" content="http://example.com/images/39.png">
-<meta property="og:image" content="http://example.com/images/40.png">
-<meta property="og:image" content="http://example.com/images/41.png">
-<meta property="og:image" content="http://example.com/images/42.png">
-<meta property="og:image" content="http://example.com/images/43.png">
-<meta property="og:image" content="http://example.com/images/44.png">
-<meta property="og:image" content="http://example.com/images/45.png">
-<meta property="og:image" content="http://example.com/images/46.png">
-<meta property="og:image" content="http://example.com/images/47.png">
-<meta property="og:image" content="http://example.com/images/48.png">
-<meta property="og:image" content="http://example.com/images/49.png">
-<meta property="og:image" content="http://example.com/images/50.png">
-<meta property="og:image" content="http://example.com/images/51.png">
-<meta property="og:image" content="http://example.com/images/52.png">
-<meta property="og:image" content="http://example.com/images/53.png">
-<meta property="og:image" content="http://example.com/images/54.png">
-<meta property="og:image" content="http://example.com/images/55.png">
-<meta property="og:image" content="http://example.com/images/56.png">
-<meta property="og:image" content="http://example.com/images/57.png">
-<meta property="og:image" content="http://example.com/images/58.png">
-<meta property="og:image" content="http://example.com/images/59.png">
-<meta property="og:image" content="http://example.com/images/60.png">
-<meta property="og:image" content="http://example.com/images/61.png">
-<meta property="og:image" content="http://example.com/images/cry1.png">
-<meta property="og:image" content="http://example.com/images/download.jpg">
-<meta property="og:image" content="http://example.com/images/EASY_1_decpy3.png">
-<meta property="og:image" content="http://example.com/images/1743836629066-03a76683-7499-468d-85f3-3fb10439a989.png">
-<meta property="og:image" content="http://example.com/images/1743836639502-b7bffbac-436b-46f2-befe-b8721af93a21.png">
-<meta property="og:image" content="http://example.com/images/QQ_1743832187198.png">
-<meta property="og:image" content="http://example.com/images/QQ_1743832241003.png">
-<meta property="og:image" content="http://example.com/images/QQ_1743832317067.png">
-<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2025/png/52464567/1743832324744-64f7289f-3287-4b94-996f-1b63731e7717.png">
-<meta property="og:image" content="http://example.com/images/QQ_1743832409731.png">
-<meta property="og:image" content="http://example.com/images/QQ_1743832453654.png">
-<meta property="og:image" content="http://example.com/images/QQ_1743832482740.png">
-<meta property="article:published_time" content="2025-04-07T12:00:45.000Z">
-<meta property="article:modified_time" content="2025-04-07T12:59:48.945Z">
-<meta property="article:author" content="不知道">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images/e859cd5cae823fc6e9ecd736647c7dab.png"><script>(function() {
-  if (CONFIG.mode !== 'auto') return
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-  const setting = localStorage.getItem('darken-mode') || 'auto'
-  if (setting === 'dark' || (prefersDark && setting !== 'light'))
-    document.documentElement.classList.toggle('dark', true)
-})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
-IconifyProviders = {
-  // Empty prefix: overwrite default API provider configuration
-  '': {
-    // Use custom API first, use Iconify public API as backup
-    resources: [
-        'https://api.iconify.design',
-    ],
-    // Wait for 1 second before switching API hosts
-    rotate: 1000,
-  },
-};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="不知道"><img width="96" loading="lazy" src="https://unk-blog-image.oss-cn-shenzhen.aliyuncs.com/unknown.jpg" alt="不知道"></a><div class="site-author-name"><a href="/about/">不知道</a></div><a class="site-name" href="/about/site.html">不知道のblog</a><sub class="site-subtitle"></sub><div class="site-description"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="Archives"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">1</span></a></div><div class="site-state-item"><a href="/categories/" title="Categories"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">0</span></a></div><div class="site-state-item"><a href="/tags/" title="Tags"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">0</span></a></div><a class="site-state-item hty-icon-button" target="_blank" rel="noopener" href="https://yun.yunyoujun.cn" title="文档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:settings-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%88%98%E9%98%9F%E5%90%8D%EF%BC%9A%E4%B8%8D%E7%9F%A5%E9%81%93"><span class="toc-number">1.</span> <span class="toc-text">战队名：不知道</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Web"><span class="toc-number">1.1.</span> <span class="toc-text">Web</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ez-puzzle"><span class="toc-number">1.1.1.</span> <span class="toc-text">ez_puzzle</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SignIn"><span class="toc-number">1.1.2.</span> <span class="toc-text">SignIn</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Reverse"><span class="toc-number">1.2.</span> <span class="toc-text">Reverse</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#WARMUP"><span class="toc-number">1.2.1.</span> <span class="toc-text">WARMUP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ezVM"><span class="toc-number">1.2.2.</span> <span class="toc-text">ezVM</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Moon"><span class="toc-number">1.2.3.</span> <span class="toc-text">Moon</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Dragon"><span class="toc-number">1.2.4.</span> <span class="toc-text">Dragon</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Summer"><span class="toc-number">1.2.5.</span> <span class="toc-text">Summer</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lake"><span class="toc-number">1.2.6.</span> <span class="toc-text">Lake</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#EzObf"><span class="toc-number">1.2.7.</span> <span class="toc-text">EzObf</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CrackMe"><span class="toc-number">1.2.8.</span> <span class="toc-text">CrackMe</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Crypto"><span class="toc-number">1.3.</span> <span class="toc-text">Crypto</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Division"><span class="toc-number">1.3.1.</span> <span class="toc-text">Division</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Complex-signin"><span class="toc-number">1.3.2.</span> <span class="toc-text">Complex_signin</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8B%92%E7%B4%A2%E7%97%85%E6%AF%92"><span class="toc-number">1.3.3.</span> <span class="toc-text">勒索病毒</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#reed"><span class="toc-number">1.3.4.</span> <span class="toc-text">reed</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#choice"><span class="toc-number">1.3.5.</span> <span class="toc-text">choice</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%8D%E5%A4%8D%E5%A4%8D%E5%A4%8D%E6%95%B0"><span class="toc-number">1.3.6.</span> <span class="toc-text">复复复复数</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pwn"><span class="toc-number">1.4.</span> <span class="toc-text">Pwn</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Ret2libc%E2%80%99s-Revenge"><span class="toc-number">1.4.1.</span> <span class="toc-text">Ret2libc’s Revenge</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#web%E8%8B%A6%E6%89%8B"><span class="toc-number">1.4.2.</span> <span class="toc-text">web苦手</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#girlfriend"><span class="toc-number">1.4.3.</span> <span class="toc-text">girlfriend</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E5%AF%BB%E8%AE%BF%E6%A8%A1%E6%8B%9F%E5%99%A8"><span class="toc-number">1.4.4.</span> <span class="toc-text">明日方舟寻访模拟器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#EZ-3-0"><span class="toc-number">1.4.5.</span> <span class="toc-text">EZ 3.0</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Misc"><span class="toc-number">1.5.</span> <span class="toc-text">Misc</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AD%BE%E4%B8%AA%E5%88%B0%E5%90%A7"><span class="toc-number">1.5.1.</span> <span class="toc-text">签个到吧</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%BC%E6%B3%A2%E6%9B%BC%E6%B3%A2%E6%9B%BC%E6%B3%A2"><span class="toc-number">1.5.2.</span> <span class="toc-text">曼波曼波曼波</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MADer%E4%B9%9F%E8%A6%81%E5%BD%93CTFer"><span class="toc-number">1.5.3.</span> <span class="toc-text">MADer也要当CTFer</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%9A%E9%A3%9E%E7%9A%84%E9%9B%B7%E5%85%8B%E8%90%A8%E6%96%AF"><span class="toc-number">1.5.4.</span> <span class="toc-text">会飞的雷克萨斯</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#XGCTF"><span class="toc-number">1.5.5.</span> <span class="toc-text">XGCTF</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Greedymen"><span class="toc-number">1.5.6.</span> <span class="toc-text">Greedymen</span></a></li></ol></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="http://example.com/2025/04/07/XYCTF25-%E4%B8%8D%E7%9F%A5%E9%81%93-WP/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="不知道"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="不知道のblog"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">XYCTF25 不知道 WP</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="Created: 2025-04-07 20:00:45" itemprop="dateCreated datePublished" datetime="2025-04-07T20:00:45+08:00">2025-04-07</time></div><div class="post-classify"></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h1 id="战队名：不知道"><a href="#战队名：不知道" class="headerlink" title="战队名：不知道"></a>战队名：不知道</h1><p><strong>排名</strong>：<strong>1</strong></p>
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>XYCTF25 不知道 WP</title>
+    <url>/2025/04/07/XYCTF25-%E4%B8%8D%E7%9F%A5%E9%81%93-WP/</url>
+    <content><![CDATA[<h1 id="战队名：不知道"><a href="#战队名：不知道" class="headerlink" title="战队名：不知道"></a>战队名：不知道</h1><p><strong>排名</strong>：<strong>1</strong></p>
 <p><img src="/./images/e859cd5cae823fc6e9ecd736647c7dab.png" loading="lazy"></p>
 <h2 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h2><h3 id="ez-puzzle"><a href="#ez-puzzle" class="headerlink" title="ez_puzzle"></a>ez_puzzle</h3><p>查看js源码，找到_3KH_函数判断输出flag的地方</p>
 <pre><code class="python">if (G &gt; yw4) &#123;
@@ -2860,23 +2751,6 @@ sh.recvlines()
 sh.interactive()
 </code></pre>
 <p>b”Congratulations!, Here’s Your Flag flag{Greed, is……key of the life.}\n”</p>
-</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="Donate" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">吐刀乐！</div><div id="qr" style="display:none;"><div style="display:inline-block"></div><div style="display:inline-block"></div><div style="display:inline-block"></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>Post author: </strong>不知道</li><li class="post-copyright-link"><strong>Post link: </strong><a href="http://example.com/2025/04/07/XYCTF25-%E4%B8%8D%E7%9F%A5%E9%81%93-WP/" title="XYCTF25 不知道 WP">http://example.com/2025/04/07/XYCTF25-%E4%B8%8D%E7%9F%A5%E9%81%93-WP/</a></li><li class="post-copyright-license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> unless otherwise stated.</li></ul></article></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>欢迎留言~</span><br></div><div class="toggle-comment-system" style="margin: 1rem auto"><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" data-target="#waline" onclick="showComment(this.dataset.target)">waline</a><style>.utterances {
-  display: none;
-}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" data-target=".utterances" onclick="showComment(this.dataset.target)">utterances</a><script>function hideAllComment() {
-  //- hide all
-  document.querySelectorAll('.toggle-comment-btn').forEach((btn) => {
-    const container = document.querySelector(btn.dataset.target);
-    if (container) {
-      container.style.display = "none";
-    }
-  });
-}
-function showComment(target) {
-  hideAllComment();
-  //- show target
-  const targetContainer = document.querySelector(target);
-  if (targetContainer) {
-    targetContainer.style.display = "block";
-  }
-}
-</script></div></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2025 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 不知道</span></div><div class="powered"><span>Powered by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> v7.3.0</span><span class="footer-separator">|</span><span>Theme - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></body></html>
+]]></content>
+  </entry>
+</search>
