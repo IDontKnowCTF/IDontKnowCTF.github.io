@@ -3748,6 +3748,7 @@ c <span class="token operator">=</span> <span class="token number">4704725965227
 <p>根据genarate_emojiiiiii_prime(512, 224)发现,p的结构,高位为224位素数,低位为9个emoji一个32位</p>
 <p>题目给出了后8个emoji,查看每个emoji的十进制发现只有最后2位不一样,也就是说只爆破100个左右即可</p>
 <p>知道低32*9&#x3D;288位即可copper得到p</p>
+<p>e和phi有公共因子，有限域开方crt遍历一下即可</p>
 <pre class="language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> Crypto<span class="token punctuation">.</span>Util<span class="token punctuation">.</span>number <span class="token keyword">import</span> <span class="token operator">*</span>
 
 p0_ <span class="token operator">=</span> <span class="token number">108837065531980906150333850570890620719343963272506332719822248235755953428663</span>
