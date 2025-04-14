@@ -2763,6 +2763,9 @@ sh<span class="token punctuation">.</span>interactive<span class="token punctuat
 
 <p>b”Congratulations!, Here’s Your Flag flag{Greed, is……key of the life.}\n”</p>
 ]]></content>
+      <categories>
+        <category>wp</category>
+      </categories>
       <tags>
         <tag>cry</tag>
         <tag>web</tag>
@@ -2776,7 +2779,7 @@ sh<span class="token punctuation">.</span>interactive<span class="token punctuat
     <url>/2025/04/14/NCTF24-%E4%B8%8D%E7%9F%A5%E9%81%93-WP/</url>
     <content><![CDATA[<h1 id="战队名：不知道"><a href="#战队名：不知道" class="headerlink" title="战队名：不知道"></a>战队名：不知道</h1><p><strong>排名：6</strong></p>
 <p>成员：LamentXU、Jerrythepro123、lianjin、Liv</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://cdn.nlark.com/yuque/0/2025/png/54785097/1742736030430-b261e9ef-7633-418b-a3ba-ea5ac98f12ca.png" loading="lazy"></h2><h2 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h2><h3 id="sqlmap-master"><a href="#sqlmap-master" class="headerlink" title="sqlmap-master"></a>sqlmap-master</h3><p>签到题。</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="/images/1742736030430-b261e9ef-7633-418b-a3ba-ea5ac98f12ca.png" loading="lazy"></h2><h2 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h2><h3 id="sqlmap-master"><a href="#sqlmap-master" class="headerlink" title="sqlmap-master"></a>sqlmap-master</h3><p>签到题。</p>
 <p>sqlmap有个–exec可以执行。直接执行会有编码问题（我也不知道为什么）。但是可以用fromhex绕</p>
 <p>payload：</p>
 <blockquote>
@@ -2873,7 +2876,7 @@ sh<span class="token punctuation">.</span>interactive<span class="token punctuat
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
 
 <p>VPS起这个服务，bot访问即可</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52908087/1742736741383-899b4fa3-fb61-4084-8d13-d712ca7d9aa2.png" loading="lazy"></p>
+<p><img src="/images/1742736741383-899b4fa3-fb61-4084-8d13-d712ca7d9aa2.png" loading="lazy"></p>
 <h2 id="PWN"><a href="#PWN" class="headerlink" title="PWN"></a>PWN</h2><h3 id="unauth-diary"><a href="#unauth-diary" class="headerlink" title="unauth-diary"></a>unauth-diary</h3><p>先创造largebin来泄漏libc和堆地址，之后创造一个大小为-1的堆块，这样可以溢出来打tcache poisioning。用stdout结构体打house of apple来调用setcontext来写rop。rop用dup2来改输入输出的fd，这样就能拿到shell了。</p>
 <pre class="language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> pwn <span class="token keyword">import</span> <span class="token operator">*</span>
 
@@ -3004,35 +3007,35 @@ shell<span class="token punctuation">(</span><span class="token punctuation">)</
 
 
 <h2 id="RE"><a href="#RE" class="headerlink" title="RE"></a>RE</h2><h3 id="ezDOS"><a href="#ezDOS" class="headerlink" title="ezDOS"></a>ezDOS</h3><p>程序中间出现的花指令都直接nop去除，然后Apply patch到程序。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742731823755-b823cf34-aab4-4fbe-bf7e-f53a4aaa3497.png" loading="lazy"></p>
+<p><img src="/images/1742731823755-b823cf34-aab4-4fbe-bf7e-f53a4aaa3497.png" loading="lazy"></p>
 <p>程序要求输入38长度字符串，然后进行一系列变种类RC4算法加密，然后与0x141地址的38字节数据进行比对。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742732096513-faa2f920-70f8-4a36-93df-91f224f7c6d0.png" loading="lazy"></p>
+<p><img src="/images/1742732096513-faa2f920-70f8-4a36-93df-91f224f7c6d0.png" loading="lazy"></p>
 <p>使用dosbox动调，在FA代码处是对取出的al对输入的字符串进行xor加密。0x32是取出的异或值，0x31是输入的字符’1’。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742732287881-3999c9b7-5e31-4121-9f55-e2b906e10ccd.png" loading="lazy"></p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742732249120-5fda8d14-cb9b-4f49-8bf6-614e6960dc63.png" loading="lazy"></p>
+<p><img src="/images/1742732287881-3999c9b7-5e31-4121-9f55-e2b906e10ccd.png" loading="lazy"></p>
+<p><img src="/images/1742732249120-5fda8d14-cb9b-4f49-8bf6-614e6960dc63.png" loading="lazy"></p>
 <p>直接debug一直循环执行这边，即可拿到对输入字符串异或的一系列异或值。</p>
 <blockquote>
 <p>32 7d 59 7a f3 0d b3 7b 64 8c eb 28 c4 a4 50 30 a0 ed 27 6a e3 76 69 0c da 28 f8 08 ba a6 17 3e 12 59 45 06 4e f1</p>
 </blockquote>
 <p>取出0x142地址的38字节，进行异或即可得到解密flag。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742732520225-ea38e755-4155-4ff4-b845-9fd37b9bcc95.png" loading="lazy"></p>
+<p><img src="/images/1742732520225-ea38e755-4155-4ff4-b845-9fd37b9bcc95.png" loading="lazy"></p>
 <h3 id="SafeProgram"><a href="#SafeProgram" class="headerlink" title="SafeProgram"></a>SafeProgram</h3><p>核心加密是一个SM4加密。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733064140-f984f029-5c19-40da-96a2-7c9933518e4b.png" loading="lazy"></p>
+<p><img src="/images/1742733064140-f984f029-5c19-40da-96a2-7c9933518e4b.png" loading="lazy"></p>
 <p>查看byte_14002A0D0数组交叉引用，发现在其他函数被访问过。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733138431-04584683-08b6-44f7-a471-1549be8e206e.png" loading="lazy"></p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733148877-755426b6-0cd4-4c98-86b0-49efafd7b7e6.png" loading="lazy"></p>
+<p><img src="/images/1742733138431-04584683-08b6-44f7-a471-1549be8e206e.png" loading="lazy"></p>
+<p><img src="/images/1742733148877-755426b6-0cd4-4c98-86b0-49efafd7b7e6.png" loading="lazy"></p>
 <p>发现是在VEH异常Handler里面调用的，第一个AddVectoredExceptionHandler得直接nop，不然运行就直接退出。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733208272-ce5e8263-86f4-4503-8a09-968a5e694740.png" loading="lazy"></p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733215267-dd1e9a92-33aa-4250-a846-4191f12379b8.png" loading="lazy"></p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733314872-bc3290b8-a385-47a3-965d-5477921a25a5.png" loading="lazy"></p>
+<p><img src="/images/1742733208272-ce5e8263-86f4-4503-8a09-968a5e694740.png" loading="lazy"></p>
+<p><img src="/images/1742733215267-dd1e9a92-33aa-4250-a846-4191f12379b8.png" loading="lazy"></p>
+<p><img src="/images/1742733314872-bc3290b8-a385-47a3-965d-5477921a25a5.png" loading="lazy"></p>
 <p>然后在这个函数开头断点，使用ScyllaHide插件一键去除反调试，防止其他地方的反调试。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733356084-873e99b1-43f0-4c23-9c16-33ce6afc2a5b.png" loading="lazy"></p>
+<p><img src="/images/1742733356084-873e99b1-43f0-4c23-9c16-33ce6afc2a5b.png" loading="lazy"></p>
 <p>main函数可以看到要求输入格式为NCTF{…}的长度38字符串，然后运行到箭头函数会触发除0异常，然后就会触发VEH那个Handler导致那个byte数组被修改，需要提取的数据是被改后的。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733443971-e0cf12c7-c12a-48b3-b557-7ff20d700ec6.png" loading="lazy"></p>
+<p><img src="/images/1742733443971-e0cf12c7-c12a-48b3-b557-7ff20d700ec6.png" loading="lazy"></p>
 <p>动调时提取这三个数组数据，进行解密即可。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733627618-776e5556-677d-4108-957a-8081f3a182ad.png" loading="lazy"></p>
+<p><img src="/images/1742733627618-776e5556-677d-4108-957a-8081f3a182ad.png" loading="lazy"></p>
 <p>key是main函数两次memcpy那边的数据，结果如下。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733798575-ba99240d-931c-4963-aecb-87467e43e57a.png" loading="lazy"></p>
+<p><img src="/images/1742733798575-ba99240d-931c-4963-aecb-87467e43e57a.png" loading="lazy"></p>
 <p>解密代码：</p>
 <pre class="language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
 <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string></span></span>
@@ -3162,16 +3165,16 @@ shell<span class="token punctuation">(</span><span class="token punctuation">)</
 <span class="token punctuation">&#125;</span></code></pre>
 
 <h3 id="gogo"><a href="#gogo" class="headerlink" title="gogo"></a>gogo</h3><p>main_main函数可以看到是将输入分块通过channel进行协程通信。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742733969787-21f818ea-b6be-4352-b828-76c4dc10e07f.png" loading="lazy"></p>
+<p><img src="/images/1742733969787-21f818ea-b6be-4352-b828-76c4dc10e07f.png" loading="lazy"></p>
 <p>在main_main函数附件有一个带VM名字的函数，里面就是接收main那边发送的数据，然后底下有个函数执行，是通过操作数进行调用函数计算。这边一系列计算函数也印证想法。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742734066317-01e3231e-c23a-4e3f-a5d0-e97c7be1dca8.png" loading="lazy"></p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742734121024-155535f9-6bfc-4362-903a-2dfd143e5b9b.png" loading="lazy"></p>
+<p><img src="/images/1742734066317-01e3231e-c23a-4e3f-a5d0-e97c7be1dca8.png" loading="lazy"></p>
+<p><img src="/images/1742734121024-155535f9-6bfc-4362-903a-2dfd143e5b9b.png" loading="lazy"></p>
 <p>对每个vm的函数都下断点输出，如XOR这样：</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742734219948-32e06585-6800-4f9b-8edc-494765f3de6e.png" loading="lazy"></p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742734255077-9adf8f22-88a0-4158-9da6-92eaa88ff49e.png" loading="lazy"></p>
+<p><img src="/images/1742734219948-32e06585-6800-4f9b-8edc-494765f3de6e.png" loading="lazy"></p>
+<p><img src="/images/1742734255077-9adf8f22-88a0-4158-9da6-92eaa88ff49e.png" loading="lazy"></p>
 <p>运行输入可以得到一堆伪代码计算过程，通过看到9e3779b9以及计算的特征，可以发现是XXTEA变种。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742734417878-d64fe88d-06aa-4999-9e95-396404fccb0d.png" loading="lazy"></p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742735420532-84d41ca0-3eed-4411-80d2-858709f02190.png" loading="lazy"></p>
+<p><img src="/images/1742734417878-d64fe88d-06aa-4999-9e95-396404fccb0d.png" loading="lazy"></p>
+<p><img src="/images/1742735420532-84d41ca0-3eed-4411-80d2-858709f02190.png" loading="lazy"></p>
 <p>通过分析可得知是将flag分成两份，20字节为一组，分别进行两种变种XXTEA计算，Key也不一样，不过都在这里面可以找到Key。</p>
 <p>还原加密代码如下，基于标准XXTEA进行修改的：</p>
 <pre class="language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">DELTA</span> <span class="token expression"><span class="token number">0x9e3779b9</span></span></span>
@@ -3223,7 +3226,7 @@ shell<span class="token punctuation">(</span><span class="token punctuation">)</
 <span class="token punctuation">&#125;</span></code></pre>
 
 <p>在main_RET函数可以看到两组字符串的比对，都是20长度的比对，这两个数据就是加密后的flag了，提取出来分别进行解密即可。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52464567/1742736046971-85fbd00a-eb7b-40a2-953a-fa7c9807cbd7.png" loading="lazy"></p>
+<p><img src="/images/1742736046971-85fbd00a-eb7b-40a2-953a-fa7c9807cbd7.png" loading="lazy"></p>
 <p>解密代码：</p>
 <pre class="language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream></span></span>
 <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">DELTA</span> <span class="token expression"><span class="token number">0x9e3779b9</span></span></span>
@@ -3474,10 +3477,20 @@ p<span class="token punctuation">.</span>interactive<span class="token punctuati
 <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span>/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/binHOSTNAME<span class="token operator">=</span>comp-xlcrypsc-67706716887745083pclt4FLAG<span class="token operator">=</span>nctf<span class="token punctuation">&#123;</span>760bd839-02ff-4b4f-b5a9-3b006910963a<span class="token punctuation">&#125;</span>KUBERNETES_PORT<span class="token operator">=</span>tcp://192.168.0.1:443KUBERNETES_PORT_443_TCP<span class="token operator">=</span>tcp://192.168.0.1:443KUBERNETES_PORT_443_TCP_PROTO<span class="token operator">=</span>tcpKUBERNETES_PORT_443_TCP_PORT<span class="token operator">=</span>443KUBERNETES_PORT_443_TCP_ADDR<span class="token operator">=</span><span class="token number">192.168</span>.0.1KUBERNETES_SERVICE_HOST<span class="token operator">=</span><span class="token number">192.168</span>.0.1KUBERNETES_SERVICE_PORT<span class="token operator">=</span>443KUBERNETES_SERVICE_PORT_HTTPS<span class="token operator">=</span>443HOME<span class="token operator">=</span>/root
 </code></pre>
 
-<h3 id="QRcode-Reconstruction"><a href="#QRcode-Reconstruction" class="headerlink" title="QRcode Reconstruction"></a>QRcode Reconstruction</h3><p><img src="https://cdn.nlark.com/yuque/0/2025/png/52908087/1742737001478-793cdfb8-490c-40bc-939e-41e4ccc41789.png" loading="lazy">手搓。</p>
+<h3 id="QRcode-Reconstruction"><a href="#QRcode-Reconstruction" class="headerlink" title="QRcode Reconstruction"></a>QRcode Reconstruction</h3><p><img src="/images/1742737001478-793cdfb8-490c-40bc-939e-41e4ccc41789.png" loading="lazy">手搓。</p>
 <p>最后decode是</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2025/png/52908087/1742737035701-dfd8da36-52fa-4ed1-b08c-ee997cda532a.png" loading="lazy"></p>
+<p><img src="/images/1742737035701-dfd8da36-52fa-4ed1-b08c-ee997cda532a.png" loading="lazy"></p>
 <p>猜到flag是nctf{WeLc0mE_t0_Nctf_2024!!!}</p>
 <h2 id="CRYPTO"><a href="#CRYPTO" class="headerlink" title="CRYPTO"></a>CRYPTO</h2>]]></content>
+      <categories>
+        <category>wp</category>
+      </categories>
+      <tags>
+        <tag>cry</tag>
+        <tag>web</tag>
+        <tag>re</tag>
+        <tag>pwn</tag>
+        <tag>misc</tag>
+      </tags>
   </entry>
 </search>
