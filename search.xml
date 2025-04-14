@@ -2779,7 +2779,11 @@ sh<span class="token punctuation">.</span>interactive<span class="token punctuat
     <url>/2025/04/14/NCTF24-%E4%B8%8D%E7%9F%A5%E9%81%93-WP/</url>
     <content><![CDATA[<h1 id="战队名：不知道"><a href="#战队名：不知道" class="headerlink" title="战队名：不知道"></a>战队名：不知道</h1><p><strong>排名：6</strong></p>
 <p>成员：LamentXU、Jerrythepro123、lianjin、Liv</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a><img src="/images/1742736030430-b261e9ef-7633-418b-a3ba-ea5ac98f12ca.png" loading="lazy"></h2><h2 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h2><h3 id="sqlmap-master"><a href="#sqlmap-master" class="headerlink" title="sqlmap-master"></a>sqlmap-master</h3><p>签到题。</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><img src="/images/1742736030430-b261e9ef-7633-418b-a3ba-ea5ac98f12ca.png" loading="lazy"></h2><h2 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h2><p>拉门特许超级无敌详细版：</p>
+<blockquote>
+<p><a href="https://www.cnblogs.com/LAMENTXU/articles/18799383">https://www.cnblogs.com/LAMENTXU/articles/18799383</a></p>
+</blockquote>
+<h3 id="sqlmap-master"><a href="#sqlmap-master" class="headerlink" title="sqlmap-master"></a>sqlmap-master</h3><p>签到题。</p>
 <p>sqlmap有个–exec可以执行。直接执行会有编码问题（我也不知道为什么）。但是可以用fromhex绕</p>
 <p>payload：</p>
 <blockquote>
