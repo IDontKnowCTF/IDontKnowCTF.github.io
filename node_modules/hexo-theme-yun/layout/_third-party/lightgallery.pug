@@ -1,8 +1,0 @@
-link(rel='stylesheet', href=url_for(theme.vendors.lightgallery.css))
-script(type="module", defer).
-  (async () => {
-    const { utils } = await import(CONFIG.root + 'js/hexo-theme-yun.js')
-    utils.getScript("#{theme.vendors.lightgallery.js}", () => {
-      lightGallery(document.getElementById('lightgallery'));
-    }, window.lightGallery);
-  })()
