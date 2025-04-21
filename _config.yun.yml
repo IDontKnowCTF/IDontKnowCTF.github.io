@@ -1,0 +1,119 @@
+
+# 头像配置
+avatar:
+  url: https://img.picui.cn/free/2025/04/13/67fbcc5bc96f6.png # 你的头像图片地址
+  rounded: true
+  opacity: 1
+
+# 主题颜色
+colors:
+  primary: '#6200ee'
+  bg: "#528B8B"
+  selection_bg: '#8e71c1' # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color:
+  # tag_end_color:
+
+
+# 标签指定色彩，默认色 #333
+tags:
+  cry: '#4fc08d'
+  re: '#0E834D'
+  web: '#5298d1'
+  pwn: '#026E00'
+  misc: '#F14E32'
+  # React: '#61dafb'
+  # Python: '#3776ab'
+  # PHP: '#8892BF'
+  # VS Code: '#0066B8'
+  # JavaScript: '#F4DF4F'
+  # TypeScript: '#317AC6'
+  # Laravel: '#F4645F'
+
+# 分类指定色彩，默认色 #333
+# categories:
+#   笔记: dimgray
+
+# 站点头像
+favicon: https://img.picui.cn/free/2025/04/13/67fbcc5bc96f6.png
+
+
+# 标语动画
+banner:
+  enable: true
+  title: 不知道的小站
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+# 公告
+notice:
+  enable: true
+  content: 
+
+# 可选 light | dark | auto | time
+mode: time
+
+# 打赏
+reward:
+  enable: true
+  icon: ri:hand-coin-line
+  comment: 吐刀乐！
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: 
+      color: '#00A3EE'
+      icon: ri:alipay-line
+      # link: https://xxxx
+    - name: QQ 支付
+      path: 
+      color: '#12B7F5'
+      icon: ri:qq-line
+    - name: 微信支付
+      path: 
+      color: '#2DC100'
+      icon: ri:wechat-pay-line
+
+# 起始年份
+footer:
+  since: 2025
+
+  powered:
+    enable: true
+
+# 背景
+bg_image:
+  enable: true
+  # url: 
+  dark: https://w.wallhaven.cc/full/we/wallhaven-weprlq.png
+  blur: 3px 
+  opacity: 0.8
+
+# 评论
+comment:
+  enable: true
+  tips:
+    - 欢迎留言~
+  candidates:
+    - waline
+    - utterances
+
+# 一键复制按钮
+codeblock:
+  copy_btn: true
+
+# 点击效果
+fireworks:
+  enable: true
+  colors:
+    - '102, 167, 221'
+    - '62, 131, 225'
+    - '33, 78, 194'
+
+post_card:
+  opacity: 0.7
