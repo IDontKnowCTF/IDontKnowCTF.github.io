@@ -13,7 +13,9 @@ date: 2025-04-07 18:16:12
 
 **Web**：
 
-> LamentXU VN战队  高二
+> LamentXU VN战队 高二
+
+> ZianTT VN战队 高二
 
 **Pwn**：
 
@@ -36,6 +38,8 @@ NCTF 2024 第六名
 XYCTF 2025 第一名
 
 TGCTF 2025 第三名
+
+UCSC-CTF 2025 第一名
 
 ## 队员Blog
 
