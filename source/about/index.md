@@ -11,6 +11,12 @@ date: 2025-04-07 18:16:12
 
 ## 队员
 
+**Reverse**：
+
+> Liv VN战队 大一 队长
+
+> 5m10v3 山海关战队 大二
+
 **Web**：
 
 > LamentXU VN战队 高二
@@ -25,11 +31,6 @@ date: 2025-04-07 18:16:12
 
 > lianjin VN战队 大二
 
-**Reverse**：
-
-> Liv VN战队 大一
-
-> 5m10v3 山海关战队 大二
 
 ## 比赛经历
 
@@ -43,13 +44,13 @@ UCSC-CTF 2025 第一名
 
 ## 队员Blog
 
+Liv：https://tkazer.github.io/
+
 LamentXU：https://www.cnblogs.com/LAMENTXU
 
 JerrythePro123：https://jerrythepro123.github.io/
 
 lianjin：https://lianjinlll.cn/
-
-Liv：https://tkazer.github.io/
 
 5m10v3：https://5m10v3.top/
 
