@@ -36,11 +36,11 @@ date: 2025-04-07 18:16:12
 
 NCTF 2024 第六名
 
-XYCTF 2025 第一名
+XYCTF 2025 冠军 🥇
 
-TGCTF 2025 第三名
+TGCTF 2025 季军 🥉
 
-UCSC-CTF 2025 第一名
+UCSC-CTF 2025 冠军 🥇
 
 ## 队员Blog
 
