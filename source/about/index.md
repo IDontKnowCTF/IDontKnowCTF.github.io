@@ -33,11 +33,9 @@ date: 2025-04-07 18:16:12
 
 **Pwn**：
 
-> inkey V&N Team 大二
+> inkey W&M Team 大二
 
 > JerrythePro123 V&N Team 高二
-
-> inkey W&M Team 大二
 
 **Crypto**：
 
@@ -71,5 +69,3 @@ JerrythePro123：https://jerrythepro123.github.io/
 lianjin：https://lianjinlll.cn/
 
 5m10v3：https://5m10v3.top/
-
-inkey：https://blog.inkey.top/
