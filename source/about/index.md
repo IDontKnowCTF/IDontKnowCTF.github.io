@@ -19,28 +19,31 @@ date: 2025-04-07 18:16:12
 
 **Reverse**：
 
-> Liv V&N战队 大一
+> Liv V&N Team 大一
 
 > 5m10v3 山海关战队 大二
 
-> twogoat nepnep战队 大二
+> twogoat Nepnep战队 大二
 
 **Web**：
 
-> LamentXU V&N战队 高二
+> LamentXU V&N Team 高二
 
-> ZianTT V&N战队 高二
+> ZianTT V&N Team 高二
 
 **Pwn**：
 
-> inkey V&N战队 大二
+> inkey W&M Team 大二
 
-> JerrythePro123 V&N战队 高二
+> JerrythePro123 V&N Team 高二
 
 **Crypto**：
 
-> lianjin V&N战队 大二
+> lianjin V&N Team 大二
 
+**Misc**:
+
+> ZianTT V&N Team 高二
 ![image](https://img.picui.cn/free/2025/04/25/680b9991149f1.png)
 
 ## 比赛经历
@@ -66,4 +69,3 @@ JerrythePro123：https://jerrythepro123.github.io/
 lianjin：https://lianjinlll.cn/
 
 5m10v3：https://5m10v3.top/
-
