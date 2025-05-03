@@ -19,7 +19,7 @@ date: 2025-04-07 18:16:12
 
 **Reverse**：
 
-> Liv VN战队 大一
+> Liv V&N战队 大一
 
 > 5m10v3 山海关战队 大二
 
@@ -27,17 +27,19 @@ date: 2025-04-07 18:16:12
 
 **Web**：
 
-> LamentXU VN战队 高二
+> LamentXU V&N战队 高二
 
-> ZianTT VN战队 高二
+> ZianTT V&N战队 高二
 
 **Pwn**：
 
-> JerrythePro123 VN战队 高二
+> inkey V&N战队 大二
+
+> JerrythePro123 V&N战队 高二
 
 **Crypto**：
 
-> lianjin VN战队 大二
+> lianjin V&N战队 大二
 
 ![image](https://img.picui.cn/free/2025/04/25/680b9991149f1.png)
 
@@ -54,6 +56,8 @@ UCSC-CTF 2025 冠军 🥇
 ## 队员Blog
 
 Liv：https://tkazer.github.io/
+
+inkey: https://blog.inkey.top/
 
 LamentXU：https://www.cnblogs.com/LAMENTXU
 
