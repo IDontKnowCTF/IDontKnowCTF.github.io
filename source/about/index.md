@@ -56,6 +56,8 @@ TGCTF 2025 季军 🥉
 
 UCSC-CTF 2025 冠军 🥇
 
+mini-L CTF 2025 亚军 🥈
+
 ## 队员Blog
 
 Liv：https://tkazer.github.io/
