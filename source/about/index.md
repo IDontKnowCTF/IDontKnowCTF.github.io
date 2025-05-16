@@ -58,6 +58,10 @@ UCSC-CTF 2025 冠军 🥇
 
 miniL CTF 2025 亚军 🥈
 
+## 将要参加/正在参加的比赛
+
+轩辕杯 2025
+
 ## 队员Blog
 
 Liv：https://tkazer.github.io/
