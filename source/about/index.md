@@ -58,11 +58,13 @@ UCSC-CTF 2025 冠军 🥇
 
 miniL CTF 2025 亚军 🥈
 
+tidCTF 2025 季军 🥉
+
 ## 将要参加/正在参加的比赛
 
-tidCTF 2025
-
 轩辕杯 2025
+
+LITCTF 2025
 
 ## 队员Blog
 
