@@ -78,7 +78,7 @@ LamentXU：https://www.cnblogs.com/LAMENTXU
 
 JerrythePro123：https://jerrythepro123.github.io
 
-DexterJIe：dexterjie.github.io
+DexterJIe：https://dexterjie.github.io
 
 lianjin：https://lianjinlll.cn
 
