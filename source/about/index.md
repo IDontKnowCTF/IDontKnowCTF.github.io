@@ -41,6 +41,8 @@ date: 2025-04-07 18:16:12
 
 > lianjin V&N Team 大二
 
+> DexterJIe 星盟战队 大三
+
 **Misc**:
 
 > ZianTT V&N Team 高二
@@ -74,8 +76,10 @@ inkey: https://blog.inkey.top/
 
 LamentXU：https://www.cnblogs.com/LAMENTXU
 
-JerrythePro123：https://jerrythepro123.github.io/
+JerrythePro123：https://jerrythepro123.github.io
 
-lianjin：https://lianjinlll.cn/
+DexterJIe：dexterjie.github.io
 
-5m10v3：https://5m10v3.top/
+lianjin：https://lianjinlll.cn
+
+5m10v3：https://5m10v3.top
