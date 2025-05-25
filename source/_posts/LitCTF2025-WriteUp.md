@@ -6,7 +6,7 @@ categories: wp
 typora-root-url: ./..
 ---
 
-# LutCTF
+# LitCTF
 
 # 战队名：不知道
 
