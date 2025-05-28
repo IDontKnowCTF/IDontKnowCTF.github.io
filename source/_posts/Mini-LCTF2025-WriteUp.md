@@ -1,5 +1,5 @@
 ---
-title: Mini-L CTF 2025 WriteUp by 不知道
+title: Mini-LCTF 2025 不知道 WP
 date: 2025-05-09 13:13:44
 tags: [cry,web,re,pwn,misc]
 categories: wp
