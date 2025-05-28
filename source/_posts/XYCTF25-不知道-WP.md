@@ -1,5 +1,5 @@
 ---
-title: XYCTF25 不知道 WP
+title: XYCTF 2025 不知道 WP
 date: 2025-04-07 20:00:45
 tags: [cry,web,re,pwn,misc]
 categories: wp
