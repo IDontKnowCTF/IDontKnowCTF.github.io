@@ -7,7 +7,11 @@ date: 2025-04-07 18:16:12
 
 不知道小队（AKA idkTeam，idontknowctf）是最初由四个VN小登临时凑成打NCTF的一个队。
 
+由几位热爱CTF的师傅聚在一起形成的一团火焰。
+
 “叫啥？” “不知道。” “那就叫不知道吧！”
+
+![image](https://img.picui.cn/free/2025/04/13/67fbcc5bc96f6.png)
 
 ---
 
@@ -85,3 +89,7 @@ DexterJIe：https://dexterjie.github.io
 lianjin：https://lianjinlll.cn
 
 5m10v3：https://5m10v3.top
+
+## 联系
+
+IDKCTF@outlook.com
