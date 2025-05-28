@@ -1,5 +1,5 @@
 ---
-title: TGCTF25 不知道 WP
+title: TGCTF 2025 不知道 WP
 date: 2025-04-14 20:07:39
 tags: [cry,web,re,pwn,misc]
 categories: wp
