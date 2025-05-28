@@ -1,5 +1,5 @@
 ---
-title: NCTF24 不知道 WP
+title: NCTF 2024 不知道 WP
 date: 2025-04-14 18:13:44
 tags: [cry,web,re,pwn,misc]
 categories: wp
