@@ -31,7 +31,7 @@ date: 2025-04-07 18:16:12
 
 **Web**：
 
-> LamentXU V&N Team 高二
+> ~~LamentXU V&N Team 高二~~ （退役）
 
 > ZianTT V&N Team 高二
 
