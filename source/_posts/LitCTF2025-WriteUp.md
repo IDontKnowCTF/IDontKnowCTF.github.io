@@ -1,5 +1,5 @@
 ---
-title: LitCTF 2025 不知道 WP
+title: LitCTF 2025 WP
 date: 2025-05-26 14:00:00
 tags: [cry,web,re,pwn,misc]
 categories: wp
@@ -7,8 +7,6 @@ typora-root-url: ./..
 ---
 
 # LitCTF 2025 WriteUp
-
-战队名：不_知道
 
 **排名：2**
 

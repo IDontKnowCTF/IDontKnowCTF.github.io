@@ -1,5 +1,5 @@
 ---
-title: Mini-LCTF 2025 不知道 WP
+title: Mini-LCTF 2025 WP
 date: 2025-05-09 13:13:44
 tags: [cry,web,re,pwn,misc]
 categories: wp
@@ -8,9 +8,7 @@ typora-root-url: ./..
 
 # Mini L-CTF 2025
 
-队名：不知道
-
-排名：2
+**排名：2**
 
 ![](/images/HhJZb2AR1ofldixqdwocJDWAnAb.png)
 

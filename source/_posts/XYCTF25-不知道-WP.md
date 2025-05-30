@@ -1,14 +1,14 @@
 ---
-title: XYCTF 2025 不知道 WP
+title: XYCTF 2025 WP
 date: 2025-04-07 20:00:45
 tags: [cry,web,re,pwn,misc]
 categories: wp
 typora-root-url: ./..
 ---
 
-# 战队名：不知道
+# XYCTF 2025
 
-**排名**：**1**
+**排名：1**
 
 ![](/images/e859cd5cae823fc6e9ecd736647c7dab-1744626745337-9.png)
 

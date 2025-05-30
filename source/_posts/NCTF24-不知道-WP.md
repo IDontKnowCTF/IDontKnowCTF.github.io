@@ -1,16 +1,14 @@
 ---
-title: NCTF 2024 不知道 WP
+title: NCTF 2024 WP
 date: 2025-04-14 18:13:44
 tags: [cry,web,re,pwn,misc]
 categories: wp
 typora-root-url: ./..
 ---
 
-# 战队名：不知道
+# NCTF 2024
 
 **排名：6**
-
-成员：LamentXU、Jerrythepro123、lianjin、Liv
 
 ## ![](/images/1742736030430-b261e9ef-7633-418b-a3ba-ea5ac98f12ca.png)
 

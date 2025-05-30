@@ -1,12 +1,12 @@
 ---
-title: TGCTF 2025 不知道 WP
+title: TGCTF 2025 WP
 date: 2025-04-14 20:07:39
 tags: [cry,web,re,pwn,misc]
 categories: wp
 typora-root-url: ./..
 ---
 
-# 战队名：不知道
+# TGCTF 2025
 
 **排名：3**
 

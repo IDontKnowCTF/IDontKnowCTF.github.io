@@ -1,14 +1,14 @@
 ---
-title: UCSC 2025 不知道 WP
+title: UCSC 2025 WP
 date: 2025-04-21 21:00:49
 tags: [cry,web,re,pwn,misc]
 categories: wp
 typora-root-url: ./..
 ---
 
-# 战队名：不知道
+# UCSC 2025
 
-**排名**：**1**
+**排名：1**
 
 ![7918DA86D3B117713C82E1F48AA03B79](/images/7918DA86D3B117713C82E1F48AA03B79-1745240699577-65.png)
 
