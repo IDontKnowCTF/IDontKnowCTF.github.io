@@ -41,7 +41,7 @@ favicon: https://img.picui.cn/free/2025/04/13/67fbcc5bc96f6.png
 # 标语动画
 banner:
   enable: true
-  title: 不知道的小站
+  title: Blog
   border: true
   cloud:
     enable: true

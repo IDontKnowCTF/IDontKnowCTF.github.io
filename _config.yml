@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 不知道のblog
+title: Blog
 subtitle: ''
 description: ''
 keywords:
-author: '不知道'
+author: 'Blog'
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
