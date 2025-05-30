@@ -10,8 +10,6 @@ typora-root-url: ./..
 
 **排名：1**
 
-![](/images/e859cd5cae823fc6e9ecd736647c7dab-1744626745337-9.png)
-
 ## Web
 
 ### ez_puzzle

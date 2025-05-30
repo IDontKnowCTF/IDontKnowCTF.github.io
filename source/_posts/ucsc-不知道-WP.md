@@ -10,8 +10,6 @@ typora-root-url: ./..
 
 **排名：1**
 
-![7918DA86D3B117713C82E1F48AA03B79](/images/7918DA86D3B117713C82E1F48AA03B79-1745240699577-65.png)
-
 # Crypto
 
 ### **XR4-ucsc**

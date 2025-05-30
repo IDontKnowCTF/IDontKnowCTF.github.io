@@ -10,8 +10,6 @@ typora-root-url: ./..
 
 **排名：6**
 
-## ![](/images/1742736030430-b261e9ef-7633-418b-a3ba-ea5ac98f12ca.png)
-
 ## WEB
 
 拉门特许超级无敌详细版：

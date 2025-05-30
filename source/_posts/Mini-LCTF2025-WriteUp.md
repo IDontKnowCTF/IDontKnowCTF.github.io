@@ -10,8 +10,6 @@ typora-root-url: ./..
 
 **排名：2**
 
-![](/images/HhJZb2AR1ofldixqdwocJDWAnAb.png)
-
 ## Web
 
 ### Clickclick

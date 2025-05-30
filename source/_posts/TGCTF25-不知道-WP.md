@@ -10,8 +10,6 @@ typora-root-url: ./..
 
 **排名：3**
 
-![](/images/1cf021f7478de3e000412729a45b5e50-1744633170181-120.png)
-
 ## Crypto
 
 ### AAAAAAAA·真·签到
